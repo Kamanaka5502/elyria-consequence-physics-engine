@@ -1,0 +1,16 @@
+{
+  "motion_id": "motion-001",
+  "actor_id": "operator-001",
+  "authority_valid": true,
+  "evidence_fresh": true,
+  "integrity_ok": true,
+  "current_state_stable": true,
+  "energy": 20.0,
+  "burden": 2.0,
+  "debt": 5.0,
+  "risk": 1.0,
+  "concurrency": 1.0,
+  "min_capacity": 1.0,
+  "max_debt": 100.0,
+  "protected_effect": "continue_session"
+}
