@@ -15,6 +15,8 @@
 ![Outcomes](https://img.shields.io/badge/Outcomes-CONTINUE%20%7C%20PAUSE%20%7C%20REBOUND%20%7C%20REFUSE%20%7C%20HALT-gold)
 ![License](https://img.shields.io/badge/License-Proprietary-black)
 
+![Elyria Consequence Physics Engine](assets/repo_identity_hero.svg)
+
 </div>
 
 ---
