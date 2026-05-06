@@ -1,0 +1,61 @@
+<svg width="1800" height="1000" viewBox="0 0 1800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="58%" cy="50%" r="76%">
+      <stop offset="0" stop-color="#123456"/>
+      <stop offset="0.38" stop-color="#07182e"/>
+      <stop offset="1" stop-color="#02040a"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7d6"/>
+      <stop offset="0.52" stop-color="#d8b76a"/>
+      <stop offset="1" stop-color="#6f4708"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="74" height="74" patternUnits="userSpaceOnUse"><path d="M74 0H0V74" stroke="#1e3a5f" stroke-width="1" opacity="0.27"/></pattern>
+  </defs>
+  <rect width="1800" height="1000" fill="url(#bg)"/>
+  <rect width="1800" height="1000" fill="url(#grid)" opacity="0.55"/>
+  <rect x="50" y="50" width="1700" height="900" rx="42" fill="none" stroke="#26364f" stroke-width="2"/>
+
+  <text x="92" y="145" font-family="Georgia,serif" font-size="76" fill="#f8fafc">Elyria</text>
+  <text x="94" y="220" font-family="Georgia,serif" font-size="50" fill="#d8b76a">Consequence Physics Engine</text>
+  <path d="M96 250H700" stroke="url(#gold)" stroke-width="3"/>
+  <text x="98" y="305" font-family="Inter,Arial" font-size="19" fill="#93c5fd" letter-spacing="7">CAUSE · PROPAGATE · CONSTRAIN · PROVE</text>
+
+  <g transform="translate(1040 520)">
+    <path d="M-820 80 C-560 -95 -290 -55 -75 -10" stroke="#38bdf8" stroke-width="5" fill="none" filter="url(#glow)"/>
+    <path d="M-830 -120 C-575 -30 -320 15 -80 30" stroke="#38bdf8" stroke-width="4" fill="none" opacity="0.78" filter="url(#glow)"/>
+    <path d="M-820 230 C-545 185 -315 105 -80 80" stroke="#d8b76a" stroke-width="4" fill="none" opacity="0.78" filter="url(#glow)"/>
+    <circle cx="-835" cy="80" r="38" fill="#06111f" stroke="#38bdf8" stroke-width="4" filter="url(#glow)"/>
+    <text x="-900" y="153" font-family="Inter,Arial" font-size="18" fill="#38bdf8" font-weight="900">CAUSE</text>
+
+    <path d="M0 -360 C-50 -200 -48 200 0 360" fill="none" stroke="url(#gold)" stroke-width="12" filter="url(#glow)"/>
+    <path d="M-42 -352 C-92 -188 -92 188 -42 352" fill="none" stroke="#d8b76a" stroke-width="2" opacity="0.55"/>
+    <text x="0" y="-392" text-anchor="middle" font-family="Inter,Arial" font-size="18" fill="#d8b76a" font-weight="900" letter-spacing="4">PROOF BOUNDARY</text>
+
+    <path d="M-10 -150 C95 -175 210 -200 365 -230" stroke="#38bdf8" stroke-width="4" fill="none" stroke-dasharray="12 12" opacity="0.75"/>
+    <circle cx="370" cy="-230" r="34" fill="#06111f" stroke="#38bdf8" stroke-width="3"/>
+    <text x="435" y="-230" font-family="Inter,Arial" font-size="19" fill="#38bdf8" font-weight="900">INVALID EFFECT REJECTED</text>
+
+    <path d="M0 0 C120 0 210 15 365 25" stroke="#38bdf8" stroke-width="9" fill="none" filter="url(#glow)"/>
+    <circle cx="0" cy="0" r="18" fill="#38bdf8" filter="url(#glow)"/>
+    <circle cx="370" cy="25" r="34" fill="#06111f" stroke="#38bdf8" stroke-width="3"/>
+    <text x="435" y="24" font-family="Inter,Arial" font-size="19" fill="#7dd3fc" font-weight="900">EFFECT SHAPED AND CONSTRAINED</text>
+
+    <path d="M0 210 C130 220 225 245 380 260" stroke="#d8b76a" stroke-width="10" fill="none" filter="url(#glow)"/>
+    <circle cx="0" cy="210" r="19" fill="#d8b76a" filter="url(#glow)"/>
+    <circle cx="386" cy="260" r="36" fill="#06111f" stroke="#d8b76a" stroke-width="4"/>
+    <text x="435" y="258" font-family="Inter,Arial" font-size="19" fill="#d8b76a" font-weight="900">PROVEN EFFECT ADMITTED</text>
+
+    <g stroke="#38bdf8" stroke-width="2" opacity="0.25" fill="none">
+      <circle cx="-640" cy="80" r="65"/><circle cx="-540" cy="80" r="100"/><circle cx="-420" cy="80" r="135"/>
+      <path d="M-760 -250C-420 -360 -180 -250 -50 -120"/>
+      <path d="M-760 330C-420 420 -180 300 -50 140"/>
+    </g>
+  </g>
+
+  <text x="900" y="930" text-anchor="middle" font-family="Georgia,serif" font-size="31" fill="#fff3c4">Consequence is not observed after. It is governed before effect.</text>
+</svg>
